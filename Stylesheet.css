@@ -1,0 +1,39 @@
+body{
+ padding: 0px;
+ margin: 0px;
+}
+
+
+div.banner{
+  background-color: teal;
+  height: 150px;
+}
+
+/* NAVIGATION */
+div.nav{
+  background-color: teal;
+  height: 40pt;
+  line-height: 40pt;
+  font-family: agency fb;
+  text-transform: uppercase;
+  font-size: 24pt;
+}
+
+li.nav{
+  display: inline;
+  border: 1px solid white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+ul.nav{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a.nav{
+  text-decoration: none;
+  color: white
+}
+/* NAVIGATION */
