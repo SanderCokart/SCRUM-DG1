@@ -1,23 +1,36 @@
 body{
  padding: 0px;
  margin: 0px;
+ background-image:url(./Images/achtergrond_forum.jpg);
+ background-repeat:round;
 }
 
-
-div.banner{
-  background-color: teal;
-  height: 150px;
+div.title{
+  font-size: 76pt;
+  font-family: agency fb;
+  text-transform: uppercase;
+  text-align: center;
+  color: #045DA8;
+  background: rgba(255,255,255,0.75);
 }
+
+div.textbox{
+  background-color: white;
+  padding-left: 10px;
+  margin: 50px;
+  padding: 15px;
+}
+
 
 /* NAVIGATION */
 div.nav{
-  background-color: teal;
   height: 40pt;
   line-height: 40pt;
   font-family: agency fb;
   text-transform: uppercase;
-  font-size: 24pt;
+  font-size:36pt;
 }
+
 
 li.nav{
   display: inline;
@@ -26,14 +39,8 @@ li.nav{
   padding-right: 25px;
 }
 
-ul.nav{
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
 a.nav{
   text-decoration: none;
-  color: white
+  color: white;
 }
 /* NAVIGATION */
