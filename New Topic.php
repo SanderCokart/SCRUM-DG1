@@ -15,7 +15,7 @@
 
 <div class="newtopic">
   <h2 class="newtopic">inside which theme is the new topic located?</h2>
-  <label for="theme">Put A New Topic Inside Theme</label>
+  <label for="theme">Put A New Subject Inside Theme</label>
   <select class="newtopic" name="">
     <option value="">Cars</option>
     <option value="">Technology</option>
